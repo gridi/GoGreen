@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:sites">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:sites</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>3d7b0696-118d-43ad-a39b-15e208ffece8</sv:value>
+  </sv:property>
+  <sv:node sv:name="hippogogreen">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogogreen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogogreen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_fr">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippomiseauvert</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_fr-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippomiseauvert</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_nl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogagroen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_nl-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogagroen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogogreen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogogreen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile_fr">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippomiseauvert</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile_fr-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippomiseauvert</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile_nl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogagroen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile_nl-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogagroen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="rest">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogogreen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="rest-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogogreen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="ipadmag">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogogreen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="ipadmag-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippogogreen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_ru">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/хиппо-идите-зелёный</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_ru-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/хиппо-идите-зелёный</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile_ru">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/хиппо-идите-зелёный</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile_ru-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/хиппо-идите-зелёный</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_es">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hipopotamo-ir-verde</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_es-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hipopotamo-ir-verde</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_zh">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/河马转到绿</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_zh-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/河马转到绿</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_de">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippo-geht-gruen</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_de-preview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:site</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:content" sv:type="String">
+      <sv:value>/content/documents/hippo-geht-gruen</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

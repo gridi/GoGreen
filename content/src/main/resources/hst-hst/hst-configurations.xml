@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:configurations">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:configurations</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>efb71564-0ba2-4e64-a73b-ec0ac94335c4</sv:value>
+  </sv:property>
+  <sv:node sv:name="hst:default">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d69eea58-8893-4c71-9060-77a72d0d2031</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:sitemap">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemap</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7ffedbd7-a56d-4c0e-b265-228c73340bcd</sv:value>
+      </sv:property>
+      <sv:node sv:name="sitemap.xml">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:sitemapitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>df846432-7c6c-443c-9096-ef59511aecac</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+          <sv:value>hst:components/forge-sitemap-feed</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hst:pages">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:pages</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d18aff29-4b50-43d0-8770-c71550857d24</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hst:components">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:components</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>457e225b-8205-4889-b555-061561cd2111</sv:value>
+      </sv:property>
+      <sv:node sv:name="forge-sitemap-feed">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>26be3165-8dcf-4298-8b43-9fedfcd5ae80</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentclassname" sv:type="String">
+          <sv:value>org.onehippo.forge.sitemap.components.SitemapFeed</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+          <sv:value>forge-sitemap-feed.ftl</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hst:sitemenus">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenus</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3502721a-4188-4a0d-b1fc-87c27d78e637</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hst:sitemapitemhandlers">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemapitemhandlers</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>850b5feb-5768-4517-a545-b3d76f85eb81</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="common">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0fa8ab66-d608-4391-9337-5144ab00e46b</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="common-mobile">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>ac60701e-2676-4ef4-b70c-fd0cbe2ea038</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="rest">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>3c433b74-9a73-4e98-899a-8e2f34943d33</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_zh">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>16c7bc16-f8f8-4412-a351-b581d6cef6ee</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile_nl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f033652f-5045-464f-9eb2-09b7f841ac6d</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common-mobile</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_nl">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>3a3aa3e7-a375-41c3-b319-caefc1d30265</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d2f8d4ad-492c-460c-8454-63f5aa8ef002</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common-mobile</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile_fr">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0d8d39c8-8fb2-44d6-969c-c6d397244902</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common-mobile</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_fr">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>57890d70-788d-4f09-9062-1d3b2d1d4c76</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="ipadmag">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>cd322298-d96c-4d76-8dc1-c5261c39609e</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="mobile_ru">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>dd286e1b-bfce-4654-a505-411344a1c59c</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common-mobile</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_ru">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>aca3979c-b4bd-41ff-ae14-cf440c71218e</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_es">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>71c12d91-9eaf-4618-8089-d3c3ef97d48a</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hippogogreen_de">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>71c12d91-9eaf-4618-8089-d3c3ef97d48a</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common</sv:value>
+    </sv:property>
+  </sv:node>
+
+  <sv:node sv:name="hippogogreen">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:configuration</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>3e2c4a4d-727f-4f05-9f46-f1ec602c8409</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:inheritsfrom" sv:type="String" sv:multiple="true">
+      <sv:value>../common</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
