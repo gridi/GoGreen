@@ -1,17 +1,14 @@
 /**
  * Copyright 2010-2013 Hippo B.V. (http://www.onehippo.com)
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *         http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * <p/>
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * <p/>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p/>
+ * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
+ * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations under the License.
  */
 
 package com.onehippo.gogreen.components.common;
@@ -28,7 +25,6 @@ import org.onehippo.forge.easyforms.model.Form;
 public class DummyForm extends EmailForm {
 
 
-
     @Override
     public boolean onValidationSuccess(final HstRequest request, final HstResponse response, final Form form, final FormMap map) {
         // just for a demo: not sending any emails
@@ -38,12 +34,12 @@ public class DummyForm extends EmailForm {
     @Override
     public void onProcessFail(HstRequest request, HstResponse response, Form form, FormMap map) {
         super.onProcessFail(request, response, form, map);
-        request.setAttribute("success","dummysuccess");
+        request.setAttribute("success", "dummysuccess");
     }
-    
+
     @Override
     public void onProcessDone(HstRequest request, HstResponse response, Form form, FormMap map) {
         super.onProcessDone(request, response, form, map);
-        request.setAttribute("success","dummysuccess");
+        request.setAttribute("success", "dummysuccess");
     }
 }
