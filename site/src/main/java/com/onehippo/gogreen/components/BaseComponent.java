@@ -38,6 +38,11 @@ public class BaseComponent extends BaseHstComponent {
         request.setAttribute("cmsApplicationUrl", cmsApplicationUrl);
         
         request.setAttribute("loggedin", request.getUserPrincipal() != null);
+        
+        if(!isPreview(request)){
+            System.out.println("sonar situation: 1 CRITICAL + 173 MAJOR + 97 MINOR + 3 INFO + 4.7% DUPLICATION");
+        }
+        
     }
     
     protected void redirectToNotFoundPage(HstResponse response) {
