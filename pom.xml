@@ -319,6 +319,7 @@
                     set project.basedir property to enable automatic export
                     <project.basedir>${project.basedir}</project.basedir>
                   -->
+                  <repo.bootstrap>true</repo.bootstrap>
                   <log4j.configuration>file:${project.basedir}/conf/log4j-dev.xml</log4j.configuration>
                 </systemProperties>
               </container>
