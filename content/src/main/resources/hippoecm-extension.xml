@@ -765,6 +765,35 @@
       <sv:value>31051.07</sv:value> 
     </sv:property> 
   </sv:node>  
+  <sv:node sv:name="hippogogreen-type-fieldstest"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hippo-namespaces/hippogogreen/fieldstest.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hippo:namespaces/hippogogreen</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>31051.07</sv:value> 
+    </sv:property> 
+  </sv:node> 
+  <sv:node sv:name="hippogogreen-type-bootstraptest"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hippo-namespaces/hippogogreen/bootstraptest.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hippo:namespaces/hippogogreen</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>31051.07</sv:value> 
+    </sv:property> 
+  </sv:node>  
+   
   <sv:node sv:name="hippogogreen-type-banner"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -2939,7 +2968,7 @@ We need to use a number more than that to be able to create the default selectio
     <sv:property sv:name="hippo:contentroot" sv:type="String"> 
       <sv:value>/hst:hst/hst:configurations/hippogogreen_zh/hst:pages</sv:value> 
     </sv:property> 
-  </sv:node>  
+ </sv:node>
   <sv:node sv:name="hst-hst-hst-configurations-hippogogreen_zh-hst-pages-events-overview"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -5376,6 +5405,20 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages</sv:value>
     </sv:property> 
   </sv:node>  
+ <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-bootstraptest">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>50001.3</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hst/configurations/hippogogreen/pages/bootstraptest.xml</sv:value>
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages</sv:value>
+    </sv:property> 
+  </sv:node>  
   <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-contactus-page">
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -5430,6 +5473,34 @@ We need to use a number more than that to be able to create the default selectio
     </sv:property>  
     <sv:property sv:name="hippo:contentroot" sv:type="String"> 
       <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages</sv:value>
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-events-detail_2">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>50001.3</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hst/configurations/hippogogreen/pages/events-detail_2.xml</sv:value>
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages</sv:value>
+    </sv:property> 
+  </sv:node> 
+  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-eventdetail-right-eventlocationmap">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>50001.4</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hst/configurations/hippogogreen/pages/eventdetail/right/eventlocationmap.xml</sv:value>
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/events-detail/main/right</sv:value>
     </sv:property> 
   </sv:node>  
   <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-events-overview">
