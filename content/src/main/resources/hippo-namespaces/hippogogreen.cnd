@@ -25,6 +25,9 @@
 
 [hippogogreen:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document, hippostd:taggable orderable
 
+[hippogogreen:BootstrapTest] > hippogogreen:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+  
 [hippogogreen:address] > hippo:compound, hippostd:relaxed
 
 [hippogogreen:copyright] > hippo:compound, hippostd:relaxed
