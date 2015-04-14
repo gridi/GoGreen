@@ -24,7 +24,7 @@ public interface Constants {
     int DEFAULT_PAGE_SIZE = 10;
     int DEFAULT_PAGE_NUMBER = 1;
     int NOT_FOUND_INT_VALUE = -1;
-
+//hello linda
     String PROP_ANSWER = "hippogogreen:answer";
     String PROP_BODY = "hippogogreen:body";
     String PROP_CATEGORIES = "hippogogreen:categories";
