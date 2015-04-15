@@ -1335,4 +1335,15 @@
       <sv:value>jsp/contact/resellerbox.jsp</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="googlemaps">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+     </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+       <sv:value>5f737715-1537-47c0-9b14-53e96d9ac36b</sv:value>
+     </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/common/maps.jsp</sv:value>
+    </sv:property>
+    </sv:node>
 </sv:node>

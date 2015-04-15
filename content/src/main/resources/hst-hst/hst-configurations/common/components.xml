@@ -187,4 +187,15 @@
       <sv:value>sitemap.menu</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="googlemap">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+     <sv:value>hst:component</sv:value>
+    </sv:property>
+     <sv:property sv:name="hst:componentclassname" sv:type="String">
+       <sv:value>com.onehippo.gogreen.components.GoogleMaps</sv:value>
+      </sv:property>
+     <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>googlemaps</sv:value>
+     </sv:property>
+   </sv:node>
 </sv:node>
