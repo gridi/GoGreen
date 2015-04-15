@@ -187,7 +187,7 @@
         &lt;@hst.link var="jquerymbbrowser" path="/js/jquery.mb.browser.min.js"/&gt;
         &lt;script src="${jquerymbbrowser}" type="text/javascript"&gt;&lt;/script&gt;
 
-        &lt;@hst.link  var="jqueryuicore" path="/js/jquery.ui.core.js"/&gt;
+        &lt;@hst.link var="jqueryuicore" path="/js/jquery.ui.core.js"/&gt;
         &lt;script src="${jqueryuicore}" type="text/javascript"&gt;&lt;/script&gt;
 
         &lt;@hst.link var="jqueryuidatepicker" path="/js/jquery.ui.datepicker.js"/&gt;
@@ -334,7 +334,7 @@
         &lt;!-- search bar --&gt;
         &lt;@hst.include ref="search"/&gt;
 
-        &lt;!--  language navigation --&gt;
+        &lt;!-- language navigation --&gt;
         &lt;@hst.include ref="langnavigation" /&gt;
 
         &lt;!-- main navigation --&gt;
@@ -1333,6 +1333,17 @@
     <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
     <sv:property sv:name="hst:renderpath" sv:type="String">
       <sv:value>jsp/contact/resellerbox.jsp</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="google.map">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7ed58184-7d3e-46a3-a004-58297bcc0d51</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>jsp/googleMap/maps.jsp</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

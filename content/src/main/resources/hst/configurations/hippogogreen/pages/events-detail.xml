@@ -109,6 +109,17 @@
           <sv:value>hst:components/eventregistration</sv:value>
         </sv:property>
       </sv:node>
+      <sv:node sv:name="googleMap">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:component</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>95a1e3d6-a592-471d-98d5-25a34e483407</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencecomponent" sv:type="String">
+          <sv:value>hst:components/googleMap</sv:value>
+        </sv:property>
+      </sv:node>
     </sv:node>
   </sv:node>
 </sv:node>
