@@ -21,7 +21,7 @@
     <groupId>org.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-release</artifactId>
     <version>7.8.8</version>
-	</parent>
+  </parent>
 
   <name>Hippo Go Green</name>
   <description>Hippo Go Green Demo</description>
@@ -319,6 +319,7 @@
                     set project.basedir property to enable automatic export
                     <project.basedir>${project.basedir}</project.basedir>
                   -->
+                  <repo.bootstrap>true</repo.bootstrap>
                   <log4j.configuration>file:${project.basedir}/conf/log4j-dev.xml</log4j.configuration>
                 </systemProperties>
               </container>
