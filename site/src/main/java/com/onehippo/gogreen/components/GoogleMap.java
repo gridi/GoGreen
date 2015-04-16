@@ -6,6 +6,9 @@ import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 
+/**
+ * Component for rendering a GoogleMap
+ */
 public class GoogleMap extends BaseComponent {
 
     @Override
