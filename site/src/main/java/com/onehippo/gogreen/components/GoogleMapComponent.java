@@ -9,7 +9,7 @@ import org.hippoecm.hst.core.component.HstResponse;
 /**
  * Component for rendering a GoogleMap
  */
-public class GoogleMap extends BaseComponent {
+public class GoogleMapComponent extends BaseComponent {
 
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) {

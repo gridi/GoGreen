@@ -192,7 +192,7 @@
       <sv:value>hst:component</sv:value>
     </sv:property>
     <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>com.onehippo.gogreen.components.GoogleMap</sv:value>
+      <sv:value>com.onehippo.gogreen.components.GoogleMapComponent</sv:value>
     </sv:property>
     <sv:property sv:name="hst:template" sv:type="String">
       <sv:value>google.map</sv:value>
