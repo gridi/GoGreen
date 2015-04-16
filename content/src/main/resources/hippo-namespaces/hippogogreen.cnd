@@ -39,14 +39,14 @@
 
 [hippogogreen:fieldstest] > hippogogreen:basedocument, hippostd:relaxed
 
-[hippogogreen:Bootstraptest] > hippogogreen:document, hippostd:relaxed, hippotranslation:translated
-  orderable
-
 [hippogogreen:restapi] > hippogogreen:basedocument, hippostd:relaxed
 
 [hippogogreen:faq] > hippogogreen:basedocument, hippostd:relaxed, hippotaxonomy:classifiable
 
 [hippogogreen:document] > hippogogreen:basedocument, hippostd:relaxed, hippotranslation:translated
+
+[hippogogreen:Bootstraptest] > hippogogreen:document, hippostd:relaxed, hippotranslation:translated
+  orderable
 
 [hippogogreen:event] > hippogogreen:document, relateddocs:relatabledocs
 
