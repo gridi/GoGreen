@@ -5408,7 +5408,7 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages</sv:value>
     </sv:property> 
   </sv:node>  
-    <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-about-main-right">
+  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-about-right">
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
     </sv:property>  
@@ -5416,10 +5416,10 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>50001.4</sv:value> 
     </sv:property>  
     <sv:property sv:name="hippo:contentresource" sv:type="String"> 
-      <sv:value>hst/configurations/hippogogreen/pages/about.xml</sv:value>
+      <sv:value>hst/configurations/hippogogreen/pages/about/right.xml</sv:value>
     </sv:property>  
     <sv:property sv:name="hippo:contentroot" sv:type="String"> 
-      <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages</sv:value>
+      <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/about/main</sv:value>
     </sv:property> 
   </sv:node>  
  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-bootstraptest">
