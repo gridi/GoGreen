@@ -76,7 +76,9 @@
     <li class="title"><fmt:message key="jobs.detail.actions"/></li>
     <li class="link"><a href="<hst:link path="jobs/faceted/employer/${document.employer}"/>"><fmt:message key="jobs.detail.allemployerjobs"/></a></li>
 </ul>
+<hst:include ref="colorfield" />
 <hippo-gogreen:share-block />
+
 
 <c:if test="${preview && inlineEditingEnabled}">
     <jsp:include page="../inc/inline-editing-editor-form.jsp"/>

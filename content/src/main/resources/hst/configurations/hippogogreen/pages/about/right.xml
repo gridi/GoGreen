@@ -8,18 +8,4 @@
   <sv:property sv:name="hst:template" sv:type="String">
     <sv:value>about.right</sv:value>
   </sv:property>
-  <sv:node sv:name="colorfield">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hst:component</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>efa78f8f-3687-4947-8fe7-f6edcaf6e450</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:componentclassname" sv:type="String">
-      <sv:value>com.onehippo.gogreen.components.Colorfield</sv:value>
-    </sv:property>
-    <sv:property sv:name="hst:template" sv:type="String">
-      <sv:value>about.right.colorfield</sv:value>
-    </sv:property>
-  </sv:node>
 </sv:node>
