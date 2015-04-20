@@ -18,6 +18,7 @@
 
 <%@include file="../includes/tags.jspf" %>
 
+
 <c:set var="hometitle"><fmt:message key="home.title"/></c:set>
 <hippo-gogreen:title title="${hometitle}"/>
 
@@ -56,14 +57,16 @@
 <div id="bd" class="yui-t1">
 
     <hst:include ref="home-banner" />
-
+   
     <div class="yui-main">
         <div id="content" class="yui-b right home">
           <div>
             <hst:include ref="home-boxes-intro"/>
           </div>
 
-            <div class="clear">&nbsp;</div>
+            <div class="clear">&nbsp;
+             <hst:include ref="colorfield" />
+           </div>
 
             <div class="home-boxes left">
                 <hst:include ref="home-boxes-left"/>
