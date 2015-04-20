@@ -1335,18 +1335,6 @@
       <sv:value>jsp/contact/resellerbox.jsp</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="events.right.locationmap">
-  	<sv:property sv:name="jcr:primaryType" sv:type="Name">
-		<sv:value>hst:template</sv:value>
-	</sv:property>
-	<sv:property sv:name="jcr:uuid" sv:type="String">
-		<sv:value>7834afbb-e0f5-4625-b36c-e61c862c118a</sv:value>
-	</sv:property>
-	<sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String" />
-	<sv:property sv:name="hst:renderpath" sv:type="String">
-		<sv:value>jsp/events/right/locationmap.jsp</sv:value>
-	</sv:property>
-  </sv:node>
   <sv:node sv:name="about.right">
 	  <sv:property sv:name="jcr:primaryType" sv:type="Name">
 	    <sv:value>hst:template</sv:value>
