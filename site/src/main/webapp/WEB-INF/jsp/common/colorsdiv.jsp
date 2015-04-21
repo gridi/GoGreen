@@ -8,7 +8,7 @@
 
 <%-- <p><hst:html hippohtml="${document.description}"/></p>  --%>
 
-<c:if test="${not empty document.image}">
+<c:if test="${hst:isReadable(document, 'image') and not empty document.image}">
 	<c:set var="image" value="${document.image}" />
 	<hst:link var="src" hippobean="${image.largeThumbnail}" />
 	<img class="image" src="${fn:escapeXml(src)}" alt="${fn:escapeXml(image.alt)}" />
