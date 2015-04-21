@@ -7166,7 +7166,7 @@
 			<sv:value>hippo:initializeitem</sv:value>
 		</sv:property>
 		<sv:property sv:name="hippo:contentresource" sv:type="String">
-			<sv:value>hst/configurations/hippogogreen/pages/common/colorfield.xml
+			<sv:value>hst-hst/hst-configurations/common/components/colorfield.xml
 			</sv:value>
 		</sv:property>
 		<sv:property sv:name="hippo:contentroot" sv:type="String">
@@ -7183,7 +7183,7 @@
 			<sv:value>hippo:initializeitem</sv:value>
 		</sv:property>
 		<sv:property sv:name="hippo:contentresource" sv:type="String">
-			<sv:value>hst/configurations/hippogogreen/pages/common/colorfield.xml
+			<sv:value>hst-hst/hst-configurations/common/components/colorfield.xml
 			</sv:value>
 		</sv:property>
 		<sv:property sv:name="hippo:contentroot" sv:type="String">
@@ -7200,7 +7200,7 @@
 			<sv:value>hippo:initializeitem</sv:value>
 		</sv:property>
 		<sv:property sv:name="hippo:contentresource" sv:type="String">
-			<sv:value>hst/configurations/hippogogreen/pages/common/colorfield.xml
+			<sv:value>hst-hst/hst-configurations/common/components/colorfield.xml
 			</sv:value>
 		</sv:property>
 		<sv:property sv:name="hippo:contentroot" sv:type="String">
@@ -7217,7 +7217,7 @@
 			<sv:value>hippo:initializeitem</sv:value>
 		</sv:property>
 		<sv:property sv:name="hippo:contentresource" sv:type="String">
-			<sv:value>hst/configurations/hippogogreen/pages/common/colorfield.xml
+			<sv:value>hst-hst/hst-configurations/common/components/colorfield.xml
 			</sv:value>
 		</sv:property>
 		<sv:property sv:name="hippo:contentroot" sv:type="String">
@@ -7234,7 +7234,7 @@
 			<sv:value>hippo:initializeitem</sv:value>
 		</sv:property>
 		<sv:property sv:name="hippo:contentresource" sv:type="String">
-			<sv:value>hst/configurations/hippogogreen/pages/common/colorfield.xml
+			<sv:value>hst-hst/hst-configurations/common/components/colorfield.xml
 			</sv:value>
 		</sv:property>
 		<sv:property sv:name="hippo:contentroot" sv:type="String">
