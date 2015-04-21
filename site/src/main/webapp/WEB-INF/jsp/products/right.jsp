@@ -26,4 +26,5 @@
   <hst:include ref="relatedevents"/>
   <!-- components container -->
   <hst:include ref="boxes-right"/>
+  <hst:include ref="colorsdiv"/>
 </div>

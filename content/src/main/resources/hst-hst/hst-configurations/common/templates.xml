@@ -1335,4 +1335,26 @@
       <sv:value>jsp/contact/resellerbox.jsp</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="common.colorsdiv">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:template</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>6d9b360b-c4fe-404d-91bf-44813ccadfe3</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:renderpath" sv:type="String">
+    <sv:value>jsp/common/colorsdiv.jsp</sv:value>
+  </sv:property>
+  </sv:node>
+  <sv:node sv:name="about.right">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:template</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>42b455ad-080e-4fab-9fa8-637c09a15cd3</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:renderpath" sv:type="String">
+    <sv:value>jsp/about/right.jsp</sv:value>
+  </sv:property>
+  </sv:node>  
 </sv:node>

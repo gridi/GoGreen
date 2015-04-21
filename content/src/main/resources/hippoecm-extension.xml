@@ -504,7 +504,21 @@
     <sv:property sv:name="hippo:sequence" sv:type="Double"> 
       <sv:value>30110.2</sv:value> 
     </sv:property> 
-  </sv:node>  
+  </sv:node>
+  <sv:node sv:name="common-hippogogreen-hst-templates-common.googleMap"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hst-hst/hst-configurations/common/templates/common.googleMap.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hst:hst/hst:configurations/common/hst:templates</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30110.3</sv:value> 
+    </sv:property> 
+  </sv:node>   
   <!-- END common parts gogreen  The common parts for mobile  -->  
   <sv:node sv:name="common-mobile-hst-components"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
@@ -792,6 +806,9 @@
     <sv:property sv:name="hippo:sequence" sv:type="Double"> 
       <sv:value>31051.1</sv:value> 
     </sv:property> 
+    <sv:property sv:name="hippo:reloadonstartup" sv:type="Boolean">
+	   <sv:value>true</sv:value>
+	</sv:property>
   </sv:node>  
   <sv:node sv:name="hippogogreen-type-review"> 
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
@@ -5431,6 +5448,20 @@ We need to use a number more than that to be able to create the default selectio
     <sv:property sv:name="hippo:contentroot" sv:type="String"> 
       <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages</sv:value>
     </sv:property> 
+  </sv:node>
+  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-events-detail-googleMap">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>50001.4</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hst/configurations/hippogogreen/pages/event-detail/googleMap.xml</sv:value>
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/events-detail/main/right</sv:value>
+    </sv:property> 
   </sv:node>  
   <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-events-overview">
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
@@ -6555,5 +6586,49 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>900.51</sv:value>
     </sv:property>
   </sv:node>
-
+  
+  
+  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-about-right">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>50001.4</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hst/configurations/hippogogreen/pages/about/right.xml</sv:value>
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/about/main</sv:value>
+    </sv:property> 
+  </sv:node>  
+  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-about-right-colordiv">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>50001.5</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hst/configurations/hippogogreen/pages/commoncomponent/colorsdiv.xml</sv:value>
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/about/main/right</sv:value>
+    </sv:property> 
+  </sv:node>
+  
+   <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-product-right-colordiv">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>50001.5</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hst/configurations/hippogogreen/pages/commoncomponent/colorsdiv.xml</sv:value>
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/product-detail/main/right</sv:value>
+    </sv:property> 
+  </sv:node>
 </sv:node>

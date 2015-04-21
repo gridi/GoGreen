@@ -16,6 +16,8 @@
 
 package com.onehippo.gogreen.beans;
 
+import com.onehippo.gogreen.beans.compound.ImageSet;
+import com.onehippo.gogreen.beans.compound.ImageSetLink;
 import com.onehippo.gogreen.utils.Constants;
 
 import org.hippoecm.hst.content.beans.Node;
@@ -36,6 +38,19 @@ public class SimpleDocument extends BaseDocument {
 
     public HippoHtml getDescription() {
         return getBean(Constants.PROP_DESCRIPTION);
+    }
+    
+    public ImageSet getImage() {
+    	ImageSet result = null;
+    	
+    	if(getBean("hippogogreen:image")!= null && getBean("hippogogreen:image") instanceof ImageSetLink){    		
+    		ImageSetLink imageLink = (ImageSetLink) getBean("hippogogreen:image");
+    		
+    		if(imageLink.getReferencedBean()!= null && imageLink.getReferencedBean() instanceof ImageSet){
+    			result = (ImageSet) imageLink.getReferencedBean();
+    		}
+    	}
+    	return result;
     }
 
     public FormBean getForm() {
