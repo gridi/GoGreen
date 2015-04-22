@@ -6617,6 +6617,22 @@ We need to use a number more than that to be able to create the default selectio
     </sv:property> 
   </sv:node>
   
+  <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-about-right-makesquare.xml">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>50001.5</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hst/configurations/hippogogreen/pages/commoncomponent/makesquare.xml</sv:value>
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/about/main/right</sv:value>
+    </sv:property> 
+  </sv:node>
+  
+  
    <sv:node sv:name="hst-hst-hst-configurations-hippogogreen-hst-pages-product-right-colordiv">
     <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
       <sv:value>hippo:initializeitem</sv:value> 
@@ -6646,4 +6662,18 @@ We need to use a number more than that to be able to create the default selectio
       <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/jobs-detail/main/content</sv:value>
     </sv:property> 
   </sv:node>
+   <sv:node sv:name="common-hippogogreen-hst-templates-common.makesquare"> 
+    <sv:property sv:name="jcr:primaryType" sv:type="Name"> 
+      <sv:value>hippo:initializeitem</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentresource" sv:type="String"> 
+      <sv:value>hst-hst/hst-configurations/common/templates/common.makesquare.xml</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:contentroot" sv:type="String"> 
+      <sv:value>/hst:hst/hst:configurations/common/hst:templates</sv:value> 
+    </sv:property>  
+    <sv:property sv:name="hippo:sequence" sv:type="Double"> 
+      <sv:value>30110.3</sv:value> 
+    </sv:property> 
+  </sv:node>   
 </sv:node>
