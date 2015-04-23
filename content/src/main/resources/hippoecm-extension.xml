@@ -503,6 +503,9 @@
 		<sv:property sv:name="hippo:sequence" sv:type="Double">
 			<sv:value>30110.0</sv:value>
 		</sv:property>
+		<sv:property sv:name="hippo:reloadonstartup" sv:type="Boolean">
+			<sv:value>true</sv:value>
+		</sv:property>
 	</sv:node>
 	<sv:node sv:name="common-hippogogreen-hst-components">
 		<sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -7441,8 +7444,7 @@
 		</sv:property>
 	</sv:node>
 
-	<sv:node
-		sv:name="hst-hst-hst-configurations-hippogogreen-pages-about-main-content-middel-bottom">
+	<sv:node sv:name="hst-hst-hst-configurations-hippogogreen-pages-about-main-content-middel-bottom">
 		<sv:property sv:name="jcr:primaryType" sv:type="Name">
 			<sv:value>hippo:initializeitem</sv:value>
 		</sv:property>
@@ -7459,5 +7461,59 @@
 		</sv:property>
 	</sv:node>
 	
+	<sv:node
+		sv:name="replace-hst-hst-hst-configurations-hippogogreen-hst-pages-product-right-colorfield">
+		<sv:property sv:name="jcr:primaryType" sv:type="Name">
+			<sv:value>hippo:initializeitem</sv:value>
+		</sv:property>
+		<sv:property sv:name="hippo:contentdelete" sv:type="String">
+			<sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/product-detail/main/right/colorfield
+			</sv:value>
+		</sv:property>
+		<sv:property sv:name="hippo:contentresource" sv:type="String">
+			<sv:value>hst-hst/hst-configurations/common/components/colorfield_itemcomponent.xml
+			</sv:value>
+		</sv:property>
+		<sv:property sv:name="hippo:contentroot" sv:type="String">
+			<sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/product-detail/main/right/boxes-right
+			</sv:value>
+		</sv:property>
+		<sv:property sv:name="hippo:sequence" sv:type="Double">
+			<sv:value>50002</sv:value>
+		</sv:property>
+	</sv:node>
+    <sv:node
+		sv:name="replace-hst-hst-hst-configurations-hippogogreen-hst-pages-about-colorfield">
+		<sv:property sv:name="jcr:primaryType" sv:type="Name">
+			<sv:value>hippo:initializeitem</sv:value>
+		</sv:property>
+	    <sv:property sv:name="hippo:contentdelete" sv:type="String">
+			<sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/about/main/right/colorfield
+			</sv:value>
+		</sv:property>
+		<sv:property sv:name="hippo:contentresource" sv:type="String">
+			<sv:value>hst-hst/hst-configurations/common/components/colorfield_itemcomponent.xml
+			</sv:value>
+		</sv:property>
+		<sv:property sv:name="hippo:contentroot" sv:type="String">
+			<sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/about/main/right/right-top
+			</sv:value>
+		</sv:property>
+		<sv:property sv:name="hippo:sequence" sv:type="Double">
+			<sv:value>50002</sv:value>
+		</sv:property>
+	</sv:node>
+	
+    <sv:node sv:name="hippogogreen-deletenode-colorfield">
+	  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+	    <sv:value>hippo:initializeitem</sv:value>
+	  </sv:property>
+	  <sv:property sv:name="hippo:sequence" sv:type="Double">
+	    <sv:value>50002</sv:value>
+	  </sv:property>
+	  <sv:property sv:name="hippo:contentdelete" sv:type="String">
+	    <sv:value>/hst:hst/hst:configurations/hippogogreen/hst:pages/homepage/main/colorfield</sv:value>
+	  </sv:property>
+	</sv:node>
 	
 </sv:node>

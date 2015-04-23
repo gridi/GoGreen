@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="colorfield">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:containeritemcomponent</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>3c9b90a6-9efa-4fd3-bfaf-edb970ba3448</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:componentclassname" sv:type="String">
+    <sv:value>com.onehippo.gogreen.components.Colorfield</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+    <sv:value>color</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+    <sv:value>red</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:template" sv:type="String">
+    <sv:value>common.colorfield</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:xtype" sv:type="String">
+    <sv:value>HST.Item</sv:value>
+  </sv:property>
+</sv:node>

@@ -29,6 +29,29 @@
     <sv:property sv:name="jcr:uuid" sv:type="String">
       <sv:value>46437c2b-c772-444f-bc21-321e6650c186</sv:value>
     </sv:property>
+    <sv:node sv:name="colorfield">
+	  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+	    <sv:value>hst:containeritemcomponent</sv:value>
+	  </sv:property>
+	  <sv:property sv:name="jcr:uuid" sv:type="String">
+	    <sv:value>3c9b90a6-9efa-4fd3-bfaf-edb970ba3448</sv:value>
+	  </sv:property>
+	  <sv:property sv:name="hst:componentclassname" sv:type="String">
+	    <sv:value>com.onehippo.gogreen.components.Colorfield</sv:value>
+	  </sv:property>
+	  <sv:property sv:multiple="true" sv:name="hst:parameternames" sv:type="String">
+	    <sv:value>color</sv:value>
+	  </sv:property>
+	  <sv:property sv:multiple="true" sv:name="hst:parametervalues" sv:type="String">
+	    <sv:value>red</sv:value>
+	  </sv:property>
+	  <sv:property sv:name="hst:template" sv:type="String">
+	    <sv:value>common.colorfield</sv:value>
+	  </sv:property>
+	  <sv:property sv:name="hst:xtype" sv:type="String">
+	    <sv:value>HST.Item</sv:value>
+	  </sv:property>
+	</sv:node>
     <sv:node sv:name="latestcomments">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:containeritemcomponent</sv:value>
