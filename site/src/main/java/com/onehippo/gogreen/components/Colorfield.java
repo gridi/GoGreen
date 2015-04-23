@@ -11,12 +11,11 @@ public class Colorfield extends BaseComponent {
 	public void doBeforeRender(HstRequest request, HstResponse response) {
 		super.doBeforeRender(request, response);
 
-		String color = ""; // TODO get it from parameters
+		String color = "";
 
 		ColorfieldInfo info = getComponentParametersInfo(request);
 		color = info.getColor();
 
-		System.out.println("COLOR = " + color);
 		request.setAttribute("color", color);
 	}
 }
