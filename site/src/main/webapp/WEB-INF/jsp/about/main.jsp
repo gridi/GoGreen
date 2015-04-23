@@ -24,6 +24,7 @@
 <div class="yui-main">
 <div id="content" class="yui-b left-and-right">
 
+<hst:include ref="middel-top"/>
   <c:choose>
     <c:when test="${documents ne null}">         
       <div id="about">
@@ -51,6 +52,6 @@
       </div>
     </c:when>
   </c:choose>
- 
+ <hst:include ref="middel-bottom"/>
 </div>
 </div>

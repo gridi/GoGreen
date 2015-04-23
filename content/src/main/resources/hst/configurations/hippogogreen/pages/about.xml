@@ -24,7 +24,7 @@
         <sv:value>b7665006-a2f1-44ba-8572-a3ae4399da2b</sv:value>
       </sv:property>
       <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>standard.main.left</sv:value>
+        <sv:value>about.left</sv:value>
       </sv:property>
       <sv:node sv:name="leftmenu">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">

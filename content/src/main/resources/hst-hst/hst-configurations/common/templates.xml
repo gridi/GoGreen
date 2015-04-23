@@ -1357,5 +1357,18 @@
 	    <sv:value>jsp/common/colorfield.jsp</sv:value>
 	  </sv:property>
   </sv:node>
+  <sv:node sv:name="about.left" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+	  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+	    <sv:value>hst:template</sv:value>
+	  </sv:property>
+	  <sv:property sv:name="jcr:uuid" sv:type="String">
+	    <sv:value>6747ec3d-0464-4d66-8bbe-772ba66eeec8</sv:value>
+	  </sv:property>
+	  <sv:property sv:multiple="true" sv:name="hst:containers" sv:type="String"/>
+	  <sv:property sv:name="hst:renderpath" sv:type="String">
+	    <sv:value>jsp/about/left.jsp</sv:value>
+	  </sv:property>
+ </sv:node>
+  
 
 </sv:node>
