@@ -23,7 +23,7 @@
 
 <div class="yui-main">
 <div id="content" class="yui-b left-and-right">
-
+<hst:include ref="boxes-main"/>
   <c:choose>
     <c:when test="${documents ne null}">         
       <div id="about">
@@ -49,8 +49,9 @@
           <hst:html hippohtml="${document.description}"/>
         </div>
       </div>
+      
     </c:when>
   </c:choose>
- 
+ <hst:include ref="boxes-main2"/>
 </div>
 </div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="boxes-main2">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:containercomponent</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>0472edf7-0101-4476-bc77-d549f7298a5e</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:xtype" sv:type="String">
+    <sv:value>HST.vBox</sv:value>
+  </sv:property>
+</sv:node>

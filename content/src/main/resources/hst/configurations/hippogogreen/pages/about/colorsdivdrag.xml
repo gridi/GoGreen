@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="colorsdivdrag">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:containeritemcomponent</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>fa0998b7-07fe-438f-9582-09dc0f93b6b1</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:componentclassname" sv:type="String">
+    <sv:value>com.onehippo.gogreen.components.DivWithColors</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:template" sv:type="String">
+    <sv:value>common.colorsdiv</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:xtype" sv:type="String">
+    <sv:value>HST.Item</sv:value>
+  </sv:property>
+</sv:node>

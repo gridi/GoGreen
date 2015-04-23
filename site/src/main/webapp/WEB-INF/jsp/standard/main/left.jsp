@@ -19,7 +19,7 @@
 <%@include file="../../includes/tags.jspf" %>
 
 <div id="left" class="yui-b">
-
+<hst:include ref="boxes-left2"/>
   <!-- leftmenu -->
   <hst:include ref="leftmenu"/>
 
