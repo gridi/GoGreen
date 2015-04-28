@@ -15,9 +15,19 @@
  */
 package com.onehippo.gogreen.components.common;
 
+import org.hippoecm.hst.core.parameters.FieldGroup;
+import org.hippoecm.hst.core.parameters.FieldGroupList;
 import org.hippoecm.hst.core.parameters.JcrPath;
 import org.hippoecm.hst.core.parameters.Parameter;
 
+//@FieldGroupList({ @FieldGroup(titleKey = "", value = {"", "", "", "", "", "" }) })
+
+@FieldGroupList({
+	@FieldGroup(titleKey = "List of banners - part1", 
+			value = {"banner1", "banner2"}),
+	@FieldGroup(titleKey = "List of banners - part2", 
+			value = {"banner3", "banner4", "banner5"}) 
+})
 public interface BannerCarouselParamsInfo {
 
     @Parameter(name = "banner1", required = true, displayName = "Banner 1")
