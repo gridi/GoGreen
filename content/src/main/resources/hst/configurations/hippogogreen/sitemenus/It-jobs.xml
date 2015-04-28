@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="It-jobs">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:sitemenuitem</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>965dc4a2-26d6-4af0-9699-05e224f52f86</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+    <sv:value>it-jobs</sv:value>
+  </sv:property>
+</sv:node>

@@ -1369,6 +1369,16 @@
 	    <sv:value>jsp/about/left.jsp</sv:value>
 	  </sv:property>
  </sv:node>
-  
+ <sv:node sv:name="jobs-right" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+	<sv:property sv:name="jcr:primaryType" sv:type="Name">
+		<sv:value>hst:template</sv:value>
+	</sv:property>
+	<sv:property sv:name="jcr:uuid" sv:type="String">
+		<sv:value>d6c41815-4729-4614-b11d-43d9ec076320</sv:value>
+	</sv:property>
+	<sv:property sv:name="hst:renderpath" sv:type="String">
+		<sv:value>jsp/jobs/right.jsp</sv:value>
+	</sv:property>
+</sv:node> 
 
 </sv:node>
