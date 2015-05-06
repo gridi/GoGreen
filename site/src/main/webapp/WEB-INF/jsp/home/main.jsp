@@ -19,7 +19,7 @@
 <%@include file="../includes/tags.jspf" %>
 
 <c:set var="hometitle"><fmt:message key="home.title"/></c:set>
-<hippo-gogreen:title title="fff"/>
+<hippo-gogreen:title title="${hometitle}"/>
 
 
 <hst:headContribution keyHint="jqLocalScroll" category="jsInternal">
