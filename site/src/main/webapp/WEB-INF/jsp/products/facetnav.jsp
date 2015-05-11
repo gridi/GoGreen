@@ -72,6 +72,7 @@
       </li>
   </ul>
 
+  <hst:include ref="poll"/>
   <hst:include ref="suggestproduct"/>
   <!-- components container -->
   <hst:include ref="boxes-right"/>

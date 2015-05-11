@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="poll">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:containeritemcomponent</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>d463b61b-6447-43bd-a502-1bf786195253</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:componentclassname" sv:type="String">
+    <sv:value>com.onehippo.gogreen.components.PollComponent</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:iconpath" sv:type="String">
+    <sv:value>images/catalog/icon-poll.png</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:label" sv:type="String">
+    <sv:value>Poll</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+    <sv:value>poll-docsPath</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+    <sv:value>/polls</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:template" sv:type="String">
+    <sv:value>home.polls</sv:value>
+  </sv:property>
+  <sv:property sv:name="hst:xtype" sv:type="String">
+    <sv:value>HST.Item</sv:value>
+  </sv:property>
+</sv:node>
