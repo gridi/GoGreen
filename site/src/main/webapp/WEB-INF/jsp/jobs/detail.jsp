@@ -47,7 +47,6 @@
 <h2><c:out value="${document.title}"/></h2>
 
 <div id="job">
-
   <ul>
   <li class="question"><fmt:message key="jobs.detail.employer"/> <span class="answer"><c:out value="${document.employer}"/></span></li>
   <li class="question"><fmt:message key="jobs.detail.location"/> <span class="answer"><c:out value="${document.location}"/></span></li>
@@ -76,6 +75,9 @@
     <li class="title"><fmt:message key="jobs.detail.actions"/></li>
     <li class="link"><a href="<hst:link path="jobs/faceted/employer/${document.employer}"/>"><fmt:message key="jobs.detail.allemployerjobs"/></a></li>
 </ul>
+
+<hst:include ref="poll"/>
+
 <hippo-gogreen:share-block />
 
 <c:if test="${preview && inlineEditingEnabled}">
