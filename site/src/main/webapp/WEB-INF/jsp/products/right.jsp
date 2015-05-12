@@ -21,6 +21,7 @@
 
 <!-- right -->
 <div id="right" class="yui-b">
+  <hst:include ref="contenttype"/>
   <hst:include ref="relatedproducts"/>
   <hst:include ref="relatednews"/>
   <hst:include ref="relatedevents"/>

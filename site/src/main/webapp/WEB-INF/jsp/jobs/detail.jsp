@@ -67,6 +67,8 @@
 </div>
 </div>
 <div id="right" class="yui-b">
+
+<hst:include ref="contenttype"/>
 <ul class="box-general bullet-points" id="job-search">
 	<li class="title"><fmt:message key="jobs.detail.jobsearch"/></li>
 	<li class="link"><a href="javascript:history.back(-1)"><fmt:message key="jobs.detail.backtoresults"/></a></li>
